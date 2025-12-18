@@ -1,4 +1,4 @@
-Week-1 Chatbot Creation & EV Vehicle_Price_Prediction
+## Week-1:--Choosing Dataset and Defining the problem Statement
 
 This project focuses on predicting the price of Electric Vehicles (EVs) using *Machine Learning* techniques.  
 It includes a dataset of 200 EV models with various features such as range, battery capacity, charging time, and more.  
@@ -16,7 +16,7 @@ The Aim of this project is to:
 
 ## 📂 Files Included  
 - *ev_dataset.csv* — Dataset containing details of 200 Electric Vehicles.  
-- *EV_Price_Prediction_Notebook.ipynb* — Jupyter Notebook with data analysis, preprocessing, and model building.  
+- *EV_Price_Prediction_Notebook.ipynb* — Jupyter Notebook with data analysis, preprocessing, and model building.
 - *README.md* — Project overview and documentation.  
 
 ---
@@ -26,6 +26,7 @@ Machine Learning helps in predicting numerical values based on data.
 In this project, it is used for:
 - *Forecasting EV range:* Predicting how far an EV can travel on one charge.  
 - *Predicting EV price:* Estimating vehicle price based on battery capacity, power, brand, and efficiency.
+
 
 ### 🔹 2️⃣ Generative AI (for chatbot service)
 Generative AI tools such as *OpenAI (ChatGPT), **Google Gemini, **DALL·E, and **DeepSeek* can be used to create a *chatbot service* that:
@@ -61,7 +62,7 @@ A trained Machine Learning model capable of predicting:
 
 ----------
 
-## 📘 Week-2 Progress
+## 📘 Week-2 :-Implementation of Machine learning Model
 
 ### Task Objective  
 Implement a *Machine Learning model (Linear Regression)* in *Google Colab* to predict Electric Vehicle (EV) prices using the Week-1 dataset.
@@ -77,3 +78,133 @@ Implement a *Machine Learning model (Linear Regression)* in *Google Colab* to pr
 ### File Added  
 📂 *[Week_2_EV_Price_Prediction.ipynb](Week_2_EV_Price_Prediction.ipynb)*  
 (Click above to open the Colab notebook)
+
+
+------------------------------------------
+
+## Week--3 :-- Chatbot Creation & EV Vehicle_Price_Prediction
+
+# 🧾 Project Abstract
+
+> This project integrates an Electric Vehicle (EV) range prediction model with a Gemini AI-powered chatbot using Streamlit. The system predicts the estimated driving range of an EV based on user inputs and allows natural interaction through the chatbot. It demonstrates how AI and machine learning can enhance EV user experience by combining predictive analytics with conversational intelligence.
+
+
+## About PPT
+
+
+
+🧩 Slide 1 – Title Slide
+
+Title:
+
+> EV Range Prediction & Gemini Chatbot
+
+
+
+Subtitle:
+
+> Presented by: Saraswathi Gudiguntla
+Department of Computer Science
+Roll No: ___
+College: ___
+Date: ___
+
+
+
+
+---
+
+⚡ Slide 2 – Introduction
+
+> This project integrates an Electric Vehicle (EV) Range Prediction Model with a Gemini AI Chatbot.
+The app allows users to interact with the chatbot and predict their vehicle’s range in a single Streamlit interface.
+
+
+
+
+---
+
+🎯 Slide 3 – Objectives
+
+To predict EV driving range using machine learning.
+
+To develop a chatbot using the Gemini API.
+
+To create a user-friendly web interface with Streamlit.
+
+To demonstrate real-time AI interaction and prediction.
+
+
+
+---
+
+🧰 Slide 4 – Tools and Technologies
+
+Programming Language: Python
+
+Framework: Streamlit
+
+Libraries: pandas, numpy, scikit-learn
+
+API Used: Google Gemini
+
+Model File: ev_model.pkl
+
+
+
+---
+
+⚙️ Slide 5 – System Architecture
+
+Add a simple flow diagram using Insert → Shapes → Arrows
+Flow:
+User → Streamlit Web App → EV Model + Gemini API → Output
+
+You can also write below the diagram:
+
+> The system takes user input for EV parameters, predicts the range, and interacts with the chatbot for assistance.
+
+
+
+
+---
+
+🔍 Slide 6 – Working of EV Range Prediction
+
+Inputs: Battery capacity, Speed, Distance, Temperature, etc.
+
+Model processes input using a trained dataset.
+
+Output: Predicted driving range in kilometers.
+
+
+
+---
+
+🤖 Slide 7 – Gemini Chatbot
+
+Accepts user text input.
+
+Uses Gemini API to generate intelligent responses.
+
+Provides real-time interaction inside the app.
+
+
+
+---
+
+📸 Slide 8 – Output Screenshots
+
+
+---
+
+🏁 Slide 9 – Conclusion
+
+> The project successfully combines predictive analytics and conversational AI.
+It demonstrates how EV technology can be enhanced with machine learning and chatbots for better user experience.
+
+
+
+
+---
+
